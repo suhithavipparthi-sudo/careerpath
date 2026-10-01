@@ -1,0 +1,20 @@
+/* Navbar + footer (same on every page) */
+.navbar { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,.9);
+  backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
+.nav-inner { display: flex; align-items: center; justify-content: space-between; height: 70px; }
+.logo { font-size: 1.4rem; font-weight: 800; }
+.logo span { background: var(--gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.nav-links { display: flex; gap: 26px; }
+.nav-links a { color: var(--text-light); font-weight: 500; padding: 6px 0; transition: color .2s; }
+.nav-links a:hover, .nav-links a.active { color: var(--primary); }
+.nav-auth { display: flex; gap: 10px; }
+.nav-auth .btn { padding: 8px 20px; font-size: .9rem; }
+.menu-toggle { display: none; background: none; border: none; font-size: 1.8rem; cursor: pointer; color: var(--text); }
+
+.footer { background: var(--text); color: #C9D1E0; padding: 48px 0 20px; margin-top: 40px; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 32px; }
+.footer h4 { color: var(--white); margin-bottom: 12px; }
+.footer a { display: block; padding: 3px 0; }
+.footer a:hover { color: var(--white); }
+.footer-bottom { text-align: center; margin-top: 32px; padding-top: 16px;
+  border-top: 1px solid #2A3550; font-size: .85rem; }

@@ -1,0 +1,24 @@
+/* Responsive rules (loaded last so it can override other files) */
+@media (max-width: 992px) {
+  h1 { font-size: 2.4rem; }
+  .hero-inner { grid-template-columns: 1fr; text-align: center; }
+  .hero-buttons { justify-content: center; }
+  .hero-visual { display: none; }
+}
+@media (max-width: 768px) {
+  .section { padding: 48px 0; }
+  h2 { font-size: 1.6rem; }
+  .menu-toggle { display: block; }
+  /* the nav links + login buttons turn into a dropdown menu */
+  .nav-links, .nav-auth { display: none; }
+  .navbar.open .nav-links, .navbar.open .nav-auth { display: flex; }
+  .navbar.open .nav-links { flex-direction: column; position: absolute; top: 70px; left: 0; right: 0;
+    background: var(--white); padding: 16px 5%; gap: 14px; border-bottom: 1px solid var(--border); }
+  .navbar.open .nav-auth { position: absolute; top: 330px; left: 0; right: 0;
+    background: var(--white); padding: 0 5% 16px; }
+  .footer-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  h1 { font-size: 2rem; }
+  .hero-buttons .btn { width: 100%; text-align: center; }
+}

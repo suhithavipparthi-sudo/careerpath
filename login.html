@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Login | CareerPath</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body data-root="" data-page="Login">
+
+  <!-- Navbar -->
+  <div id="navbar"></div>
+
+  <!-- Login Section -->
+  <main class="container section">
+
+    <div class="auth-card">
+
+      <h1>Welcome Back</h1>
+
+      <p class="muted">
+        Login to continue your CareerPath journey.
+      </p>
+
+      <form id="loginForm">
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email">Email Address</label>
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          >
+        </div>
+
+        <!-- Password -->
+        <div class="form-group">
+          <label for="password">Password</label>
+
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          >
+        </div>
+
+        <!-- Submit -->
+        <button type="submit" class="btn">
+          Login
+        </button>
+
+      </form>
+
+      <p class="auth-switch">
+        Don't have an account?
+        <a href="register.html">Create an account</a>
+      </p>
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <script src="js/main.js"></script>
+
+  <script>
+    const loginForm = document.getElementById("loginForm");
+
+    loginForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const email = document.getElementById("email").value.trim();
+      const password = document.getElementById("password").value;
+
+      if (!email || !password) {
+        alert("Please enter your email and password.");
+        return;
+      }
+
+      const savedUser = JSON.parse(
+        localStorage.getItem("careerPathUser")
+      );
+
+      if (!savedUser) {
+        alert("No registered account found. Please register first.");
+        return;
+      }
+
+      if (email !== savedUser.email) {
+        alert("Email does not match the registered account.");
+        return;
+      }
+
+      alert("Login successful!");
+
+      window.location.href = "pages/dashboard.html";
+    });
+  </script>
+
+</body>
+</html>

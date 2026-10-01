@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dashboard | CareerPath</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body data-root="../" data-page="Dashboard">
+
+  <!-- Navbar -->
+  <div id="navbar"></div>
+
+  <!-- Dashboard -->
+  <main class="container section dashboard">
+
+    <!-- Welcome -->
+    <section class="dashboard-header">
+      <div>
+        <p class="eyebrow">CAREERPATH DASHBOARD</p>
+
+        <h1>
+          Welcome back,
+          <span id="userName">Student</span> 👋
+        </h1>
+
+        <p class="muted">
+          Continue building your skills and preparing for your dream career.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Quick Stats -->
+    <section class="dashboard-stats">
+
+      <div class="dashboard-card">
+        <div class="card-icon">🎯</div>
+        <div>
+          <h3>Career Goal</h3>
+          <p id="careerGoal">Not selected</p>
+        </div>
+      </div>
+
+      <div class="dashboard-card">
+        <div class="card-icon">📚</div>
+        <div>
+          <h3>Skills</h3>
+          <p>Start learning</p>
+        </div>
+      </div>
+
+      <div class="dashboard-card">
+        <div class="card-icon">🚀</div>
+        <div>
+          <h3>Projects</h3>
+          <p>Explore projects</p>
+        </div>
+      </div>
+
+      <div class="dashboard-card">
+        <div class="card-icon">💼</div>
+        <div>
+          <h3>Job Roles</h3>
+          <p>Explore careers</p>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- Quick Actions -->
+    <section class="dashboard-section">
+
+      <div class="section-heading">
+        <h2>Quick Actions</h2>
+        <p class="muted">
+          Continue exploring your career path.
+        </p>
+      </div>
+
+
+      <div class="action-grid">
+
+        <a href="roles.html" class="action-card">
+          <span class="action-icon">💼</span>
+
+          <h3>Explore Roles</h3>
+
+          <p>
+            Discover career roles and understand the skills required.
+          </p>
+
+          <span class="action-link">
+            Explore →
+          </span>
+        </a>
+
+
+        <a href="roadmap.html" class="action-card">
+          <span class="action-icon">🗺️</span>
+
+          <h3>Career Roadmaps</h3>
+
+          <p>
+            Follow structured learning roadmaps for different careers.
+          </p>
+
+          <span class="action-link">
+            View Roadmaps →
+          </span>
+        </a>
+
+
+        <a href="projects.html" class="action-card">
+          <span class="action-icon">💡</span>
+
+          <h3>Projects</h3>
+
+          <p>
+            Find projects that can help strengthen your portfolio.
+          </p>
+
+          <span class="action-link">
+            View Projects →
+          </span>
+        </a>
+
+
+        <a href="interview-prep.html" class="action-card">
+          <span class="action-icon">🎤</span>
+
+          <h3>Interview Preparation</h3>
+
+          <p>
+            Practice common interview questions and prepare confidently.
+          </p>
+
+          <span class="action-link">
+            Start Preparing →
+          </span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- Recommended -->
+    <section class="dashboard-section">
+
+      <div class="section-heading">
+        <h2>Recommended For You</h2>
+
+        <p class="muted">
+          Explore these sections to continue your career preparation.
+        </p>
+      </div>
+
+      <div class="recommendation-box">
+
+        <div>
+          <h3>Build your career profile</h3>
+
+          <p>
+            Explore job roles, learn the required skills,
+            build projects and prepare for interviews.
+          </p>
+        </div>
+
+        <a href="roles.html" class="btn">
+          Get Started
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+
+  <!-- JavaScript -->
+  <script src="../js/main.js"></script>
+
+  <script>
+
+    // Get registered user
+    const savedUser = JSON.parse(
+      localStorage.getItem("careerPathUser")
+    );
+
+    if (savedUser) {
+      document.getElementById("userName").textContent =
+        savedUser.name;
+    }
+
+  </script>
+
+</body>
+</html>

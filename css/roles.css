@@ -1,0 +1,201 @@
+/* =====================================
+   ROLES PAGE
+   ===================================== */
+
+.roles-page {
+    padding: 60px 0 80px;
+}
+
+
+/* HEADER */
+
+.roles-header {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 40px;
+}
+
+.roles-header .eyebrow {
+    color: #2f6fed;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.roles-header h1 {
+    color: #143458;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.roles-header p {
+    color: #667085;
+    line-height: 1.7;
+}
+
+
+/* SEARCH */
+
+.roles-search {
+    max-width: 600px;
+    margin: 0 auto 45px;
+}
+
+.roles-search input {
+    width: 100%;
+    padding: 15px 20px;
+
+    border: 1px solid #d9e0ea;
+    border-radius: 12px;
+
+    font-size: 1rem;
+
+    outline: none;
+}
+
+.roles-search input:focus {
+    border-color: #2f6fed;
+}
+
+
+/* ROLE GRID */
+
+.roles-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+/* ROLE CARD */
+
+.role-card {
+    background: white;
+
+    border: 1px solid rgba(20, 52, 88, 0.1);
+
+    border-radius: 18px;
+
+    padding: 28px;
+
+    box-shadow: 0 8px 25px rgba(20, 52, 88, 0.07);
+
+    transition: 0.2s ease;
+}
+
+.role-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 35px rgba(20, 52, 88, 0.12);
+}
+
+
+/* ICON */
+
+.role-icon {
+    font-size: 2.5rem;
+
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eef4ff;
+
+    border-radius: 15px;
+
+    margin-bottom: 20px;
+}
+
+
+/* TITLE */
+
+.role-card h2 {
+    color: #143458;
+
+    font-size: 1.3rem;
+
+    margin-bottom: 10px;
+}
+
+
+/* DESCRIPTION */
+
+.role-card p {
+    color: #667085;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+}
+
+
+/* SKILLS */
+
+.skills {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-bottom: 25px;
+}
+
+.skills span {
+    background: #eef4ff;
+
+    color: #2f6fed;
+
+    padding: 5px 10px;
+
+    border-radius: 20px;
+
+    font-size: 0.8rem;
+
+    font-weight: 600;
+}
+
+
+/* BUTTON */
+
+.role-card .btn {
+    display: inline-block;
+
+    text-decoration: none;
+}
+
+
+/* =====================================
+   MOBILE
+   ===================================== */
+
+@media (max-width: 900px) {
+
+    .roles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .roles-page {
+        padding: 35px 0 50px;
+    }
+
+    .roles-header h1 {
+        font-size: 2rem;
+    }
+
+    .roles-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

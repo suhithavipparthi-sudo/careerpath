@@ -1,0 +1,33 @@
+/* Homepage-only styles (index.html) */
+.hero { position: relative; overflow: hidden; padding: 80px 0 90px;
+  background: linear-gradient(180deg, #EEF2FF 0%, var(--bg) 100%); }
+.hero-inner { display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: center; position: relative; z-index: 1; }
+.hero-sub { font-size: 1.15rem; color: var(--text-light); margin: 18px 0 30px; max-width: 520px; }
+.hero-buttons { display: flex; gap: 14px; flex-wrap: wrap; }
+
+/* floating background blobs */
+.blob { position: absolute; border-radius: 50%; filter: blur(60px); opacity: .35; animation: float 7s ease-in-out infinite; }
+.blob-1 { width: 320px; height: 320px; background: var(--primary); top: -80px; left: -80px; }
+.blob-2 { width: 260px; height: 260px; background: var(--secondary); bottom: -60px; right: 8%; animation-delay: 2s; }
+
+.hero-visual { position: relative; }
+.hero-card { background: var(--white); border-radius: 20px; padding: 28px; box-shadow: var(--shadow-hover); }
+.bar-label { margin: 14px 0 4px; font-weight: 600; font-size: .9rem; }
+.float-chip { position: absolute; background: var(--white); padding: 8px 16px; border-radius: 999px;
+  box-shadow: var(--shadow); font-weight: 600; animation: float 5s ease-in-out infinite; }
+.chip-1 { top: -18px; right: 10px; }
+.chip-2 { bottom: -18px; left: 10px; animation-delay: 1.5s; }
+
+.alt-bg { background: var(--white); }
+.step { position: relative; }
+.step-num { display: inline-flex; width: 36px; height: 36px; align-items: center; justify-content: center;
+  border-radius: 50%; background: var(--gradient); color: var(--white); font-weight: 700; margin-bottom: 10px; }
+a.card { display: block; }
+.center { text-align: center; margin-top: 32px; }
+.company-row { text-align: center; }
+.company-row .tag { font-size: 1rem; padding: 10px 22px; margin: 6px; }
+
+.cta { background: var(--gradient); color: var(--white); text-align: center; padding: 56px 20px;
+  border-radius: 24px; margin: 20px auto 0; }
+.cta p { margin: 10px 0 24px; opacity: .9; }
+.btn-white { background: var(--white); color: var(--primary); }

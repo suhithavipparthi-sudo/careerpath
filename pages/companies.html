@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Companies | CareerPath</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/companies.css">
+</head>
+
+<body data-root="../" data-page="Companies">
+
+  <div id="navbar"></div>
+
+  <main class="container section companies-page">
+
+    <section class="page-hero">
+      <p class="eyebrow">COMPANY EXPLORER</p>
+
+      <h1>Explore Companies</h1>
+
+      <p>
+        Explore companies, technology domains and the types of
+        roles you can prepare for.
+      </p>
+    </section>
+
+
+    <section class="company-search">
+
+      <input
+        type="text"
+        id="companySearch"
+        placeholder="Search companies..."
+      >
+
+    </section>
+
+
+    <section class="company-grid" id="companyGrid">
+
+      <article class="company-card">
+
+        <div class="company-logo">G</div>
+
+        <div class="company-info">
+          <h2>Google</h2>
+
+          <p>
+            Technology • Software • AI
+          </p>
+
+          <div class="company-tags">
+            <span>Software</span>
+            <span>AI</span>
+            <span>Cloud</span>
+          </div>
+
+          <a href="roles.html" class="company-link">
+            Explore relevant roles →
+          </a>
+        </div>
+
+      </article>
+
+
+      <article class="company-card">
+
+        <div class="company-logo">M</div>
+
+        <div class="company-info">
+          <h2>Microsoft</h2>
+
+          <p>
+            Technology • Cloud • Software
+          </p>
+
+          <div class="company-tags">
+            <span>Software</span>
+            <span>Azure</span>
+            <span>AI</span>
+          </div>
+
+          <a href="roles.html" class="company-link">
+            Explore relevant roles →
+          </a>
+        </div>
+
+      </article>
+
+
+      <article class="company-card">
+
+        <div class="company-logo">A</div>
+
+        <div class="company-info">
+          <h2>Amazon</h2>
+
+          <p>
+            Technology • Cloud • E-commerce
+          </p>
+
+          <div class="company-tags">
+            <span>AWS</span>
+            <span>Software</span>
+            <span>Data</span>
+          </div>
+
+          <a href="roles.html" class="company-link">
+            Explore relevant roles →
+          </a>
+        </div>
+
+      </article>
+
+
+      <article class="company-card">
+
+        <div class="company-logo">T</div>
+
+        <div class="company-info">
+          <h2>TCS</h2>
+
+          <p>
+            IT Services • Consulting • Technology
+          </p>
+
+          <div class="company-tags">
+            <span>IT</span>
+            <span>Consulting</span>
+            <span>Data</span>
+          </div>
+
+          <a href="roles.html" class="company-link">
+            Explore relevant roles →
+          </a>
+        </div>
+
+      </article>
+
+
+      <article class="company-card">
+
+        <div class="company-logo">I</div>
+
+        <div class="company-info">
+          <h2>Infosys</h2>
+
+          <p>
+            IT Services • Consulting • Digital
+          </p>
+
+          <div class="company-tags">
+            <span>Software</span>
+            <span>Cloud</span>
+            <span>Data</span>
+          </div>
+
+          <a href="roles.html" class="company-link">
+            Explore relevant roles →
+          </a>
+        </div>
+
+      </article>
+
+
+      <article class="company-card">
+
+        <div class="company-logo">A</div>
+
+        <div class="company-info">
+          <h2>Accenture</h2>
+
+          <p>
+            Consulting • Technology • Digital
+          </p>
+
+          <div class="company-tags">
+            <span>Consulting</span>
+            <span>AI</span>
+            <span>Cloud</span>
+          </div>
+
+          <a href="roles.html" class="company-link">
+            Explore relevant roles →
+          </a>
+        </div>
+
+      </article>
+
+    </section>
+
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="../js/main.js"></script>
+
+  <script>
+    const companySearch = document.getElementById("companySearch");
+    const companyCards = document.querySelectorAll(".company-card");
+
+    companySearch.addEventListener("input", function () {
+
+      const searchText = this.value.toLowerCase();
+
+      companyCards.forEach(card => {
+
+        const text = card.innerText.toLowerCase();
+
+        card.style.display =
+          text.includes(searchText) ? "flex" : "none";
+
+      });
+
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareerPath | Find Your Career. Build Your Future.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-root="" data-page="Home">
+  <div id="navbar"></div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <span class="blob blob-1"></span><span class="blob blob-2"></span>
+    <div class="container hero-inner">
+      <div>
+        <h1>Find Your Career. <span class="gradient-text">Build Your Future.</span></h1>
+        <p class="hero-sub">Explore job roles, discover the skills you need, follow career roadmaps, and become job-ready.</p>
+        <div class="hero-buttons">
+          <a href="pages/roles.html" class="btn btn-primary">Explore Job Roles</a>
+          <a href="pages/roadmap.html" class="btn btn-outline">View Roadmaps</a>
+        </div>
+      </div>
+      <!-- Illustration built with HTML/CSS (no image files needed) -->
+      <div class="hero-visual">
+        <div class="hero-card">
+          <h3>🎯 Data Analyst Roadmap</h3>
+          <p class="muted">Sample progress</p>
+          <p class="bar-label">Excel</p><div class="progress"><div class="progress-fill" data-value="90"></div></div>
+          <p class="bar-label">SQL</p><div class="progress"><div class="progress-fill" data-value="65"></div></div>
+          <p class="bar-label">Python</p><div class="progress"><div class="progress-fill" data-value="40"></div></div>
+        </div>
+        <div class="float-chip chip-1">✅ Skills</div>
+        <div class="float-chip chip-2">🗺️ Roadmap</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- POPULAR ROLES (filled by main.js from data/roles.json) -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title reveal"><h2>Popular Career Roles</h2><p>Pick a role to see what it involves</p></div>
+      <div class="grid grid-cards" id="popularRoles"></div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section alt-bg">
+    <div class="container">
+      <div class="section-title reveal"><h2>How CareerPath Works</h2><p>Six simple steps</p></div>
+      <div class="grid grid-cards">
+        <div class="card step reveal"><span class="step-num">1</span><h3>Explore a Role</h3><p class="muted">Browse roles and see what they involve.</p></div>
+        <div class="card step reveal"><span class="step-num">2</span><h3>Discover Required Skills</h3><p class="muted">See the technical and soft skills needed.</p></div>
+        <div class="card step reveal"><span class="step-num">3</span><h3>Follow the Roadmap</h3><p class="muted">Learn step by step and track progress.</p></div>
+        <div class="card step reveal"><span class="step-num">4</span><h3>Build Projects</h3><p class="muted">Practice with beginner to advanced projects.</p></div>
+        <div class="card step reveal"><span class="step-num">5</span><h3>Prepare for Interviews</h3><p class="muted">Practise sample questions and answers.</p></div>
+        <div class="card step reveal"><span class="step-num">6</span><h3>Become Job-Ready</h3><p class="muted">Track your own readiness on the dashboard.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED ROADMAPS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title reveal"><h2>Featured Roadmaps</h2></div>
+      <div class="grid grid-cards">
+        <a class="card reveal" href="pages/roadmap.html?role=data-analyst"><h3>📊 Data Analyst</h3><p class="muted">Excel → SQL → Python → Power BI</p></a>
+        <a class="card reveal" href="pages/roadmap.html?role=frontend-developer"><h3>🎨 Frontend Developer</h3><p class="muted">HTML → CSS → JavaScript → React</p></a>
+        <a class="card reveal" href="pages/roadmap.html?role=cloud-engineer"><h3>☁️ Cloud Engineer</h3><p class="muted">Linux → Networking → AWS → Docker</p></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STUDENT EXPERIENCES (sample content, real data comes in Phase 9) -->
+  <section class="section alt-bg">
+    <div class="container">
+      <div class="section-title reveal"><h2>Student Experiences</h2><p>Sample community stories. Individual opinions, not universal facts.</p></div>
+      <div class="grid grid-cards">
+        <div class="card reveal"><p>"Building small SQL projects helped me more than only watching tutorials."</p><p class="muted">Sample: Data Analyst, Fresher</p></div>
+        <div class="card reveal"><p>"Git and teamwork matter as much as coding. Start using both early."</p><p class="muted">Sample: Software Developer, Fresher</p></div>
+        <div class="card reveal"><p>"Learn networking basics before touching security tools."</p><p class="muted">Sample: Cybersecurity, Intern</p></div>
+      </div>
+      <p class="center"><a href="pages/experiences.html" class="btn btn-outline">Read More Experiences</a></p>
+    </div>
+  </section>
+
+  <!-- COMPANIES -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title reveal"><h2>Companies That Hire</h2><p>Sample list for learning purposes</p></div>
+      <div class="company-row reveal">
+        <span class="tag">TCS</span><span class="tag">Infosys</span><span class="tag">Wipro</span>
+        <span class="tag">Accenture</span><span class="tag">Cognizant</span><span class="tag">Capgemini</span>
+      </div>
+      <p class="center"><a href="pages/companies.html" class="btn btn-outline">View Companies</a></p>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="container">
+    <div class="cta reveal">
+      <h2>Ready to start your journey?</h2>
+      <p>Create a free account to track your progress.</p>
+      <a href="register.html" class="btn btn-white">Get Started</a>
+    </div>
+  </section>
+
+  <div id="footer"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
