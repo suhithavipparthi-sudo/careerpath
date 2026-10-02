@@ -1,0 +1,2481 @@
+{
+  "data-analyst": {
+    "title": "Data Analyst",
+    "icon": "📊",
+    "description": "Build skills to collect, clean, analyze and visualize data for business decisions.",
+    "steps": [
+      {
+        "id": "foundations",
+        "title": "Foundations",
+        "description": "Build the mathematical, logical and analytical foundation for data work.",
+        "skills": [
+          "Data literacy",
+          "Mathematics",
+          "Statistics basics",
+          "Analytical thinking"
+        ],
+        "topics": [
+          {
+            "title": "Data Fundamentals",
+            "items": [
+              "Types of data",
+              "Structured vs unstructured data",
+              "Categorical vs numerical data",
+              "Data quality",
+              "Data collection basics"
+            ]
+          },
+          {
+            "title": "Mathematics",
+            "items": [
+              "Ratios and percentages",
+              "Fractions and averages",
+              "Basic algebra",
+              "Functions and graphs",
+              "Logarithms basics"
+            ]
+          },
+          {
+            "title": "Statistics Basics",
+            "items": [
+              "Mean",
+              "Median",
+              "Mode",
+              "Range",
+              "Variance",
+              "Standard deviation",
+              "Percentiles",
+              "Outliers"
+            ]
+          },
+          {
+            "title": "Analytical Thinking",
+            "items": [
+              "Problem decomposition",
+              "Asking analytical questions",
+              "Finding patterns",
+              "Drawing evidence-based conclusions",
+              "Communicating findings"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "excel",
+        "title": "Excel",
+        "description": "Learn spreadsheet analysis from basics to advanced reporting.",
+        "skills": [
+          "Formulas",
+          "Functions",
+          "Lookups",
+          "Pivot Tables",
+          "Power Query",
+          "Dashboards"
+        ],
+        "topics": [
+          {
+            "title": "Excel Basics",
+            "items": [
+              "Excel interface",
+              "Rows and columns",
+              "Cell references",
+              "Formatting",
+              "Tables",
+              "Freeze panes"
+            ]
+          },
+          {
+            "title": "Formulas & Functions",
+            "items": [
+              "SUM",
+              "AVERAGE",
+              "COUNT",
+              "MIN and MAX",
+              "IF",
+              "SUMIF and SUMIFS",
+              "COUNTIF and COUNTIFS",
+              "IFERROR"
+            ]
+          },
+          {
+            "title": "Lookup Functions",
+            "items": [
+              "VLOOKUP",
+              "HLOOKUP",
+              "XLOOKUP",
+              "INDEX",
+              "MATCH",
+              "INDEX + MATCH"
+            ]
+          },
+          {
+            "title": "Data Cleaning",
+            "items": [
+              "Sort and filter",
+              "Remove duplicates",
+              "Text to Columns",
+              "TRIM and CLEAN",
+              "Data validation",
+              "Handling blanks"
+            ]
+          },
+          {
+            "title": "Pivot Analysis",
+            "items": [
+              "Pivot Tables",
+              "Pivot Charts",
+              "Grouping",
+              "Calculated fields",
+              "Slicers",
+              "Timeline filters"
+            ]
+          },
+          {
+            "title": "Advanced Excel",
+            "items": [
+              "Power Query",
+              "Data modeling basics",
+              "Advanced formulas",
+              "Dynamic arrays",
+              "Interactive dashboards",
+              "Dashboard storytelling"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sql",
+        "title": "SQL",
+        "description": "Master SQL from database basics to advanced analytical queries.",
+        "skills": [
+          "Queries",
+          "Joins",
+          "Aggregation",
+          "Subqueries",
+          "CTEs",
+          "Window functions"
+        ],
+        "topics": [
+          {
+            "title": "SQL & Database Basics",
+            "items": [
+              "What is SQL",
+              "Databases and tables",
+              "Rows and columns",
+              "Primary keys",
+              "Foreign keys",
+              "Data types"
+            ]
+          },
+          {
+            "title": "SELECT & Filtering",
+            "items": [
+              "SELECT",
+              "DISTINCT",
+              "WHERE",
+              "AND and OR",
+              "IN",
+              "BETWEEN",
+              "LIKE",
+              "ORDER BY",
+              "LIMIT"
+            ]
+          },
+          {
+            "title": "Aggregate Functions",
+            "items": [
+              "COUNT",
+              "SUM",
+              "AVG",
+              "MIN",
+              "MAX",
+              "NULL handling"
+            ]
+          },
+          {
+            "title": "GROUP BY & HAVING",
+            "items": [
+              "GROUP BY",
+              "Multiple-column grouping",
+              "HAVING",
+              "Conditional aggregation"
+            ]
+          },
+          {
+            "title": "JOINs",
+            "items": [
+              "INNER JOIN",
+              "LEFT JOIN",
+              "RIGHT JOIN",
+              "FULL OUTER JOIN",
+              "SELF JOIN",
+              "Joining multiple tables"
+            ]
+          },
+          {
+            "title": "Subqueries",
+            "items": [
+              "Scalar subqueries",
+              "IN subqueries",
+              "EXISTS",
+              "Correlated subqueries"
+            ]
+          },
+          {
+            "title": "CTEs",
+            "items": [
+              "WITH clause",
+              "Multiple CTEs",
+              "Recursive CTE basics",
+              "Readable query design"
+            ]
+          },
+          {
+            "title": "Window Functions",
+            "items": [
+              "OVER",
+              "PARTITION BY",
+              "ORDER BY in windows",
+              "ROW_NUMBER",
+              "RANK",
+              "DENSE_RANK",
+              "LAG",
+              "LEAD"
+            ]
+          },
+          {
+            "title": "Advanced SQL",
+            "items": [
+              "CASE expressions",
+              "Views",
+              "Indexes basics",
+              "Transactions",
+              "Query optimization basics",
+              "Analytical problem solving"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "python",
+        "title": "Python for Data Analysis",
+        "description": "Use Python to manipulate, clean, visualize and analyze data.",
+        "skills": [
+          "Python",
+          "NumPy",
+          "Pandas",
+          "Matplotlib",
+          "Data cleaning",
+          "EDA"
+        ],
+        "topics": [
+          {
+            "title": "Python Fundamentals",
+            "items": [
+              "Variables",
+              "Data types",
+              "Operators",
+              "Conditions",
+              "Loops",
+              "Functions",
+              "Modules"
+            ]
+          },
+          {
+            "title": "Python Data Structures",
+            "items": [
+              "Lists",
+              "Tuples",
+              "Sets",
+              "Dictionaries",
+              "List comprehensions",
+              "String operations"
+            ]
+          },
+          {
+            "title": "Functions & OOP",
+            "items": [
+              "Parameters",
+              "Return values",
+              "Lambda functions",
+              "Classes",
+              "Objects",
+              "Inheritance basics",
+              "Exception handling"
+            ]
+          },
+          {
+            "title": "NumPy",
+            "items": [
+              "Arrays",
+              "Array indexing",
+              "Vectorized operations",
+              "Broadcasting",
+              "Aggregation",
+              "Linear algebra basics"
+            ]
+          },
+          {
+            "title": "Pandas",
+            "items": [
+              "Series",
+              "DataFrames",
+              "Reading CSV and Excel",
+              "Filtering",
+              "Sorting",
+              "GroupBy",
+              "Merge and join",
+              "Pivot tables"
+            ]
+          },
+          {
+            "title": "Data Cleaning",
+            "items": [
+              "Missing values",
+              "Duplicates",
+              "Type conversion",
+              "Outlier handling",
+              "String cleaning",
+              "Feature creation"
+            ]
+          },
+          {
+            "title": "Visualization & EDA",
+            "items": [
+              "Matplotlib basics",
+              "Seaborn basics",
+              "Histograms",
+              "Box plots",
+              "Scatter plots",
+              "Correlation analysis",
+              "Exploratory data analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "statistics",
+        "title": "Statistics",
+        "description": "Learn the statistics needed to interpret data and make reliable conclusions.",
+        "skills": [
+          "Descriptive statistics",
+          "Probability",
+          "Distributions",
+          "Correlation",
+          "Regression",
+          "Hypothesis testing"
+        ],
+        "topics": [
+          {
+            "title": "Descriptive Statistics",
+            "items": [
+              "Mean",
+              "Median",
+              "Mode",
+              "Variance",
+              "Standard deviation",
+              "Quartiles",
+              "IQR"
+            ]
+          },
+          {
+            "title": "Probability",
+            "items": [
+              "Events",
+              "Sample space",
+              "Conditional probability",
+              "Bayes theorem basics",
+              "Independent events"
+            ]
+          },
+          {
+            "title": "Distributions",
+            "items": [
+              "Normal distribution",
+              "Binomial distribution",
+              "Poisson distribution",
+              "Z-score",
+              "Central limit theorem"
+            ]
+          },
+          {
+            "title": "Relationships",
+            "items": [
+              "Covariance",
+              "Correlation",
+              "Pearson correlation",
+              "Spearman correlation",
+              "Correlation vs causation"
+            ]
+          },
+          {
+            "title": "Regression",
+            "items": [
+              "Simple linear regression",
+              "Multiple regression",
+              "Residuals",
+              "R-squared",
+              "Regression assumptions"
+            ]
+          },
+          {
+            "title": "Inferential Statistics",
+            "items": [
+              "Population vs sample",
+              "Confidence intervals",
+              "Null and alternative hypotheses",
+              "p-value",
+              "t-test",
+              "Chi-square test",
+              "ANOVA basics"
+            ]
+          },
+          {
+            "title": "Experimentation",
+            "items": [
+              "A/B testing",
+              "Control and treatment groups",
+              "Statistical significance",
+              "Practical significance",
+              "Experiment interpretation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "powerbi",
+        "title": "Power BI",
+        "description": "Create professional dashboards and interactive business reports.",
+        "skills": [
+          "Power Query",
+          "Data modeling",
+          "DAX",
+          "Visuals",
+          "Dashboards",
+          "Storytelling"
+        ],
+        "topics": [
+          {
+            "title": "Power BI Basics",
+            "items": [
+              "Power BI Desktop",
+              "Importing data",
+              "Data types",
+              "Report view",
+              "Model view"
+            ]
+          },
+          {
+            "title": "Power Query",
+            "items": [
+              "Load data",
+              "Transform columns",
+              "Merge queries",
+              "Append queries",
+              "Remove duplicates",
+              "Handle missing values"
+            ]
+          },
+          {
+            "title": "Data Modeling",
+            "items": [
+              "Tables",
+              "Relationships",
+              "Star schema",
+              "Fact and dimension tables",
+              "Date tables",
+              "Relationship direction"
+            ]
+          },
+          {
+            "title": "DAX",
+            "items": [
+              "Calculated columns",
+              "Measures",
+              "CALCULATE",
+              "FILTER",
+              "SUMX",
+              "Time intelligence basics"
+            ]
+          },
+          {
+            "title": "Visualizations",
+            "items": [
+              "Bar charts",
+              "Line charts",
+              "Cards",
+              "Tables and matrices",
+              "Slicers",
+              "Maps",
+              "Drill-through"
+            ]
+          },
+          {
+            "title": "Advanced Reporting",
+            "items": [
+              "Dashboard layout",
+              "Bookmarks",
+              "Tooltips",
+              "Row-level security basics",
+              "Performance basics",
+              "Data storytelling"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "projects",
+        "title": "Projects",
+        "description": "Prove your skills with portfolio projects from beginner to advanced.",
+        "skills": [
+          "Data cleaning project",
+          "SQL project",
+          "Dashboard",
+          "Business analysis",
+          "Portfolio"
+        ],
+        "topics": [
+          {
+            "title": "Beginner Projects",
+            "items": [
+              "Student performance analysis",
+              "Simple sales analysis",
+              "Basic Excel dashboard"
+            ]
+          },
+          {
+            "title": "Intermediate Projects",
+            "items": [
+              "Customer segmentation",
+              "SQL business analysis",
+              "Power BI sales dashboard",
+              "Exploratory data analysis"
+            ]
+          },
+          {
+            "title": "Advanced Projects",
+            "items": [
+              "End-to-end analytics pipeline",
+              "Business KPI dashboard",
+              "Automated reporting",
+              "Portfolio case study"
+            ]
+          },
+          {
+            "title": "Portfolio Readiness",
+            "items": [
+              "Document problem statement",
+              "Explain methodology",
+              "Show insights",
+              "Add visuals",
+              "Write README",
+              "Present business impact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "frontend-developer": {
+    "title": "Frontend Developer",
+    "icon": "💻",
+    "description": "Build responsive, accessible and interactive web applications.",
+    "steps": [
+      {
+        "id": "html",
+        "title": "HTML",
+        "description": "Learn modern HTML from page structure to accessibility.",
+        "skills": [
+          "Semantic HTML",
+          "Forms",
+          "Tables",
+          "Accessibility"
+        ],
+        "topics": [
+          {
+            "title": "HTML Basics",
+            "items": [
+              "Document structure",
+              "Head and body",
+              "Headings",
+              "Paragraphs",
+              "Links",
+              "Images",
+              "Lists"
+            ]
+          },
+          {
+            "title": "Semantic HTML",
+            "items": [
+              "Header",
+              "Nav",
+              "Main",
+              "Section",
+              "Article",
+              "Aside",
+              "Footer"
+            ]
+          },
+          {
+            "title": "Forms",
+            "items": [
+              "Input types",
+              "Labels",
+              "Validation",
+              "Select",
+              "Textarea",
+              "Form submission"
+            ]
+          },
+          {
+            "title": "Advanced HTML",
+            "items": [
+              "Audio and video",
+              "Tables",
+              "Data attributes",
+              "Meta tags",
+              "SEO basics",
+              "Accessibility basics"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "css",
+        "title": "CSS",
+        "description": "Master styling, layouts, responsiveness and modern CSS.",
+        "skills": [
+          "Selectors",
+          "Flexbox",
+          "Grid",
+          "Responsive design",
+          "Animations"
+        ],
+        "topics": [
+          {
+            "title": "CSS Basics",
+            "items": [
+              "Selectors",
+              "Colors",
+              "Units",
+              "Typography",
+              "Backgrounds",
+              "Borders"
+            ]
+          },
+          {
+            "title": "Box Model",
+            "items": [
+              "Margin",
+              "Padding",
+              "Border",
+              "Width and height",
+              "Box sizing",
+              "Overflow"
+            ]
+          },
+          {
+            "title": "Layouts",
+            "items": [
+              "Display",
+              "Position",
+              "Flexbox",
+              "CSS Grid",
+              "Alignment",
+              "Responsive containers"
+            ]
+          },
+          {
+            "title": "Responsive Design",
+            "items": [
+              "Media queries",
+              "Mobile-first design",
+              "Fluid sizing",
+              "Responsive images",
+              "Breakpoints"
+            ]
+          },
+          {
+            "title": "Advanced CSS",
+            "items": [
+              "Transitions",
+              "Animations",
+              "Transforms",
+              "Pseudo elements",
+              "CSS variables",
+              "Advanced selectors"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "javascript",
+        "title": "JavaScript",
+        "description": "Build interactive web applications using modern JavaScript.",
+        "skills": [
+          "ES6+",
+          "DOM",
+          "Events",
+          "APIs",
+          "Async programming"
+        ],
+        "topics": [
+          {
+            "title": "JavaScript Basics",
+            "items": [
+              "Variables",
+              "Data types",
+              "Operators",
+              "Conditions",
+              "Loops",
+              "Functions"
+            ]
+          },
+          {
+            "title": "Core Data Structures",
+            "items": [
+              "Arrays",
+              "Objects",
+              "Destructuring",
+              "Spread operator",
+              "Map",
+              "Set",
+              "Array methods"
+            ]
+          },
+          {
+            "title": "DOM & Events",
+            "items": [
+              "Selecting elements",
+              "Changing content",
+              "Classes and styles",
+              "Event listeners",
+              "Forms",
+              "Event delegation"
+            ]
+          },
+          {
+            "title": "Modern JavaScript",
+            "items": [
+              "let and const",
+              "Arrow functions",
+              "Template literals",
+              "Modules",
+              "Optional chaining",
+              "Promises"
+            ]
+          },
+          {
+            "title": "Async & APIs",
+            "items": [
+              "Callbacks",
+              "Promises",
+              "Async/Await",
+              "Fetch API",
+              "JSON",
+              "Error handling",
+              "REST APIs"
+            ]
+          },
+          {
+            "title": "Advanced JavaScript",
+            "items": [
+              "Closures",
+              "Higher-order functions",
+              "Event loop",
+              "LocalStorage",
+              "Performance basics"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "git",
+        "title": "Git & GitHub",
+        "description": "Collaborate and manage professional software projects.",
+        "skills": [
+          "Git",
+          "Branches",
+          "Commits",
+          "Pull requests",
+          "Collaboration"
+        ],
+        "topics": [
+          {
+            "title": "Git Basics",
+            "items": [
+              "git init",
+              "git status",
+              "git add",
+              "git commit",
+              "git log"
+            ]
+          },
+          {
+            "title": "Remote Repositories",
+            "items": [
+              "git remote",
+              "git push",
+              "git pull",
+              "Clone repository",
+              "GitHub repositories"
+            ]
+          },
+          {
+            "title": "Branches",
+            "items": [
+              "Create branches",
+              "Switch branches",
+              "Merge",
+              "Resolve conflicts",
+              "Branch naming"
+            ]
+          },
+          {
+            "title": "Team Collaboration",
+            "items": [
+              "Pull requests",
+              "Code review",
+              "Issues",
+              ".gitignore",
+              "README files",
+              "Repository organization"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "react",
+        "title": "React",
+        "description": "Build component-based modern web interfaces.",
+        "skills": [
+          "Components",
+          "Props",
+          "State",
+          "Hooks",
+          "Routing",
+          "APIs"
+        ],
+        "topics": [
+          {
+            "title": "React Basics",
+            "items": [
+              "Create a React app",
+              "JSX",
+              "Components",
+              "Props",
+              "Rendering lists"
+            ]
+          },
+          {
+            "title": "State & Events",
+            "items": [
+              "useState",
+              "Event handling",
+              "Controlled inputs",
+              "Conditional rendering"
+            ]
+          },
+          {
+            "title": "Hooks",
+            "items": [
+              "useEffect",
+              "useRef",
+              "useMemo",
+              "useCallback",
+              "Custom hooks"
+            ]
+          },
+          {
+            "title": "Routing & APIs",
+            "items": [
+              "React Router",
+              "Route parameters",
+              "Fetch data",
+              "Loading states",
+              "Error states"
+            ]
+          },
+          {
+            "title": "Advanced React",
+            "items": [
+              "Context API",
+              "State management concepts",
+              "Performance optimization",
+              "Component architecture"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "projects",
+        "title": "Projects",
+        "description": "Build portfolio projects that demonstrate frontend skills.",
+        "skills": [
+          "Portfolio",
+          "Dashboard",
+          "E-commerce",
+          "API application"
+        ],
+        "topics": [
+          {
+            "title": "Beginner Projects",
+            "items": [
+              "Landing page",
+              "Responsive portfolio",
+              "Calculator",
+              "To-do app"
+            ]
+          },
+          {
+            "title": "Intermediate Projects",
+            "items": [
+              "Weather app",
+              "Movie search app",
+              "Dashboard",
+              "Expense tracker"
+            ]
+          },
+          {
+            "title": "Advanced Projects",
+            "items": [
+              "E-commerce frontend",
+              "Admin dashboard",
+              "API-driven application",
+              "Production-ready portfolio"
+            ]
+          },
+          {
+            "title": "Deployment",
+            "items": [
+              "Build for production",
+              "Environment variables",
+              "Deploy static site",
+              "Custom domain basics",
+              "Performance check"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "cloud-engineer": {
+    "title": "Cloud Engineer",
+    "icon": "☁️",
+    "description": "Learn infrastructure, networking, cloud services, containers and deployment.",
+    "steps": [
+      {
+        "id": "linux",
+        "title": "Linux",
+        "description": "Build strong Linux administration skills.",
+        "skills": [
+          "Commands",
+          "Permissions",
+          "Processes",
+          "Shell scripting"
+        ],
+        "topics": [
+          {
+            "title": "Linux Basics",
+            "items": [
+              "File system",
+              "pwd",
+              "ls",
+              "cd",
+              "cp",
+              "mv",
+              "rm",
+              "mkdir"
+            ]
+          },
+          {
+            "title": "Files & Permissions",
+            "items": [
+              "chmod",
+              "chown",
+              "File permissions",
+              "Users",
+              "Groups",
+              "Environment variables"
+            ]
+          },
+          {
+            "title": "Processes & Services",
+            "items": [
+              "Processes",
+              "ps",
+              "top",
+              "kill",
+              "systemd",
+              "Services",
+              "Logs"
+            ]
+          },
+          {
+            "title": "Shell Scripting",
+            "items": [
+              "Variables",
+              "Conditions",
+              "Loops",
+              "Functions",
+              "Bash scripts",
+              "Automation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "networking",
+        "title": "Networking",
+        "description": "Understand how applications communicate across networks.",
+        "skills": [
+          "TCP/IP",
+          "DNS",
+          "HTTP",
+          "Ports",
+          "Routing",
+          "Firewalls"
+        ],
+        "topics": [
+          {
+            "title": "Networking Basics",
+            "items": [
+              "Network types",
+              "IP addresses",
+              "IPv4",
+              "IPv6",
+              "MAC addresses",
+              "OSI model"
+            ]
+          },
+          {
+            "title": "Protocols",
+            "items": [
+              "TCP",
+              "UDP",
+              "HTTP",
+              "HTTPS",
+              "DNS",
+              "DHCP",
+              "SSH"
+            ]
+          },
+          {
+            "title": "Routing & Subnetting",
+            "items": [
+              "Routers",
+              "Subnets",
+              "CIDR",
+              "Default gateway",
+              "NAT",
+              "Routing basics"
+            ]
+          },
+          {
+            "title": "Network Security",
+            "items": [
+              "Ports",
+              "Firewalls",
+              "Security groups",
+              "VPN",
+              "TLS basics",
+              "Network monitoring"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cloud",
+        "title": "Cloud Fundamentals",
+        "description": "Understand core cloud concepts before specializing in a provider.",
+        "skills": [
+          "IaaS",
+          "PaaS",
+          "SaaS",
+          "Virtualization",
+          "Storage"
+        ],
+        "topics": [
+          {
+            "title": "Cloud Concepts",
+            "items": [
+              "What is cloud computing",
+              "IaaS",
+              "PaaS",
+              "SaaS",
+              "Public cloud",
+              "Private cloud",
+              "Hybrid cloud"
+            ]
+          },
+          {
+            "title": "Virtualization",
+            "items": [
+              "Virtual machines",
+              "Hypervisors",
+              "Images",
+              "Snapshots",
+              "Scaling"
+            ]
+          },
+          {
+            "title": "Cloud Architecture",
+            "items": [
+              "Regions",
+              "Availability zones",
+              "High availability",
+              "Scalability",
+              "Fault tolerance"
+            ]
+          },
+          {
+            "title": "Cloud Storage & Databases",
+            "items": [
+              "Object storage",
+              "Block storage",
+              "File storage",
+              "Managed databases",
+              "Backup concepts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aws",
+        "title": "AWS",
+        "description": "Learn major AWS services and build cloud architectures.",
+        "skills": [
+          "EC2",
+          "S3",
+          "IAM",
+          "VPC",
+          "RDS",
+          "Lambda"
+        ],
+        "topics": [
+          {
+            "title": "AWS Basics",
+            "items": [
+              "AWS Console",
+              "Regions",
+              "Availability zones",
+              "Billing basics",
+              "AWS CLI"
+            ]
+          },
+          {
+            "title": "Compute",
+            "items": [
+              "EC2",
+              "AMI",
+              "Auto Scaling",
+              "Load Balancer",
+              "Lambda"
+            ]
+          },
+          {
+            "title": "Storage",
+            "items": [
+              "S3 buckets",
+              "Storage classes",
+              "Lifecycle rules",
+              "EBS",
+              "Backup"
+            ]
+          },
+          {
+            "title": "Networking",
+            "items": [
+              "VPC",
+              "Subnets",
+              "Route tables",
+              "Internet gateway",
+              "NAT gateway",
+              "Security groups"
+            ]
+          },
+          {
+            "title": "Identity & Databases",
+            "items": [
+              "IAM users",
+              "IAM roles",
+              "Policies",
+              "RDS",
+              "DynamoDB basics"
+            ]
+          },
+          {
+            "title": "Monitoring & Architecture",
+            "items": [
+              "CloudWatch",
+              "CloudTrail",
+              "Well-Architected concepts",
+              "Cost optimization",
+              "High availability"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "docker",
+        "title": "Docker",
+        "description": "Containerize applications and prepare them for deployment.",
+        "skills": [
+          "Images",
+          "Containers",
+          "Dockerfile",
+          "Networks",
+          "Compose"
+        ],
+        "topics": [
+          {
+            "title": "Docker Basics",
+            "items": [
+              "Containers",
+              "Images",
+              "Docker Hub",
+              "docker pull",
+              "docker run",
+              "docker ps"
+            ]
+          },
+          {
+            "title": "Dockerfile",
+            "items": [
+              "FROM",
+              "RUN",
+              "COPY",
+              "WORKDIR",
+              "EXPOSE",
+              "CMD",
+              "ENTRYPOINT"
+            ]
+          },
+          {
+            "title": "Storage & Networking",
+            "items": [
+              "Volumes",
+              "Bind mounts",
+              "Container networks",
+              "Port mapping"
+            ]
+          },
+          {
+            "title": "Docker Compose",
+            "items": [
+              "Compose file",
+              "Multiple services",
+              "Environment variables",
+              "Service networking"
+            ]
+          },
+          {
+            "title": "Advanced Containers",
+            "items": [
+              "Multi-stage builds",
+              "Image optimization",
+              "Security basics",
+              "Container registries"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "projects",
+        "title": "Cloud Projects",
+        "description": "Deploy real applications and demonstrate cloud engineering skills.",
+        "skills": [
+          "Deployment",
+          "Cloud database",
+          "Docker",
+          "Monitoring"
+        ],
+        "topics": [
+          {
+            "title": "Beginner Projects",
+            "items": [
+              "Host a static website",
+              "Create an S3 bucket",
+              "Launch an EC2 server"
+            ]
+          },
+          {
+            "title": "Intermediate Projects",
+            "items": [
+              "Deploy Node.js app",
+              "Connect managed database",
+              "Dockerize application"
+            ]
+          },
+          {
+            "title": "Advanced Projects",
+            "items": [
+              "Load-balanced application",
+              "CI/CD deployment",
+              "Monitoring dashboard",
+              "Highly available architecture"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+      "software-developer": {
+            "title": "Software Developer",
+    "icon": "👨‍💻",
+    "description": "Build strong programming, DSA, database, backend and software engineering skills.",
+    "steps": [
+
+      {
+        "id": "programming",
+        "title": "Programming Fundamentals",
+        "description": "Build your core programming and problem-solving foundation.",
+        "skills": [
+          "Variables",
+          "Conditions",
+          "Loops",
+          "Functions",
+          "OOP"
+        ],
+        "topics": [
+          {
+            "title": "Programming Basics",
+            "items": [
+              "Variables",
+              "Data types",
+              "Operators",
+              "Input and output",
+              "Conditions",
+              "Loops"
+            ]
+          },
+          {
+            "title": "Functions",
+            "items": [
+              "Parameters",
+              "Return values",
+              "Scope",
+              "Recursion basics",
+              "Modularity"
+            ]
+          },
+          {
+            "title": "Core Data Structures",
+            "items": [
+              "Arrays",
+              "Strings",
+              "Lists",
+              "Maps",
+              "Sets",
+              "Stacks",
+              "Queues"
+            ]
+          },
+          {
+            "title": "Object-Oriented Programming",
+            "items": [
+              "Classes",
+              "Objects",
+              "Encapsulation",
+              "Inheritance",
+              "Polymorphism",
+              "Abstraction"
+            ]
+          },
+          {
+            "title": "Error Handling",
+            "items": [
+              "Exceptions",
+              "Validation",
+              "Debugging",
+              "Logging",
+              "Defensive programming"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "dsa",
+        "title": "Data Structures & Algorithms",
+        "description": "Develop strong problem-solving skills for software engineering interviews.",
+        "skills": [
+          "Arrays",
+          "Trees",
+          "Graphs",
+          "Sorting",
+          "Dynamic Programming"
+        ],
+        "topics": [
+          {
+            "title": "Arrays & Strings",
+            "items": [
+              "Array traversal",
+              "Two pointers",
+              "Sliding window",
+              "Prefix sums",
+              "Hashing patterns",
+              "String manipulation"
+            ]
+          },
+          {
+            "title": "Linked Lists",
+            "items": [
+              "Singly linked list",
+              "Doubly linked list",
+              "Fast and slow pointers",
+              "Reversal",
+              "Cycle detection"
+            ]
+          },
+          {
+            "title": "Stacks & Queues",
+            "items": [
+              "Stack",
+              "Queue",
+              "Deque",
+              "Monotonic stack",
+              "Priority queue"
+            ]
+          },
+          {
+            "title": "Trees",
+            "items": [
+              "Binary trees",
+              "Tree traversals",
+              "Binary Search Tree",
+              "Heap",
+              "Trie basics"
+            ]
+          },
+          {
+            "title": "Graphs",
+            "items": [
+              "Graph representation",
+              "BFS",
+              "DFS",
+              "Shortest path",
+              "Topological sort",
+              "Union-Find"
+            ]
+          },
+          {
+            "title": "Algorithms",
+            "items": [
+              "Binary search",
+              "Merge sort",
+              "Quick sort",
+              "Greedy algorithms",
+              "Backtracking",
+              "Recursion"
+            ]
+          },
+          {
+            "title": "Advanced Problem Solving",
+            "items": [
+              "Dynamic programming",
+              "Memoization",
+              "Tabulation",
+              "Bit manipulation",
+              "Complexity optimization"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "java",
+        "title": "Java",
+        "description": "Master Java for application development and technical interviews.",
+        "skills": [
+          "Core Java",
+          "OOP",
+          "Collections",
+          "Generics",
+          "Streams"
+        ],
+        "topics": [
+          {
+            "title": "Core Java",
+            "items": [
+              "Java syntax",
+              "Variables",
+              "Methods",
+              "Arrays",
+              "Strings",
+              "Packages"
+            ]
+          },
+          {
+            "title": "OOP in Java",
+            "items": [
+              "Classes",
+              "Objects",
+              "Inheritance",
+              "Polymorphism",
+              "Interfaces",
+              "Abstract classes"
+            ]
+          },
+          {
+            "title": "Collections",
+            "items": [
+              "ArrayList",
+              "LinkedList",
+              "HashMap",
+              "HashSet",
+              "Queue",
+              "PriorityQueue"
+            ]
+          },
+          {
+            "title": "Advanced Java",
+            "items": [
+              "Generics",
+              "Exception handling",
+              "File I/O",
+              "Streams",
+              "Lambda expressions",
+              "Multithreading basics"
+            ]
+          },
+          {
+            "title": "Database Connectivity",
+            "items": [
+              "JDBC",
+              "Database connection",
+              "PreparedStatement",
+              "ResultSet",
+              "Transactions"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "database",
+        "title": "Databases",
+        "description": "Learn relational database design and SQL for application development.",
+        "skills": [
+          "SQL",
+          "MySQL",
+          "Normalization",
+          "Indexes",
+          "Transactions"
+        ],
+        "topics": [
+          {
+            "title": "Database Basics",
+            "items": [
+              "DBMS",
+              "Tables",
+              "Primary keys",
+              "Foreign keys",
+              "Constraints",
+              "Relationships"
+            ]
+          },
+          {
+            "title": "SQL",
+            "items": [
+              "SELECT",
+              "INSERT",
+              "UPDATE",
+              "DELETE",
+              "WHERE",
+              "GROUP BY",
+              "JOINs"
+            ]
+          },
+          {
+            "title": "Database Design",
+            "items": [
+              "ER diagrams",
+              "Normalization",
+              "1NF",
+              "2NF",
+              "3NF",
+              "Relationships"
+            ]
+          },
+          {
+            "title": "Advanced SQL",
+            "items": [
+              "Subqueries",
+              "CTEs",
+              "Window functions",
+              "Views",
+              "Stored procedures"
+            ]
+          },
+          {
+            "title": "Performance & Transactions",
+            "items": [
+              "Indexes",
+              "Transactions",
+              "ACID",
+              "Isolation levels",
+              "Query optimization basics"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "backend",
+        "title": "Backend Development",
+        "description": "Build APIs, authentication systems and database-backed applications.",
+        "skills": [
+          "HTTP",
+          "REST",
+          "Node.js",
+          "Express",
+          "Authentication"
+        ],
+        "topics": [
+          {
+            "title": "Web Fundamentals",
+            "items": [
+              "Client-server model",
+              "HTTP methods",
+              "Status codes",
+              "Headers",
+              "JSON"
+            ]
+          },
+          {
+            "title": "REST APIs",
+            "items": [
+              "REST principles",
+              "Routes",
+              "CRUD APIs",
+              "Request validation",
+              "Error handling"
+            ]
+          },
+          {
+            "title": "Node.js & Express",
+            "items": [
+              "Node.js basics",
+              "npm",
+              "Modules",
+              "Express server",
+              "Middleware",
+              "Routing"
+            ]
+          },
+          {
+            "title": "Authentication",
+            "items": [
+              "Password hashing",
+              "Sessions",
+              "JWT",
+              "Authorization",
+              "Role-based access"
+            ]
+          },
+          {
+            "title": "Production Backend",
+            "items": [
+              "Environment variables",
+              "CORS",
+              "API security",
+              "Logging",
+              "Testing",
+              "Deployment basics"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "projects",
+        "title": "Software Projects",
+        "description": "Build applications that demonstrate software engineering skills.",
+        "skills": [
+          "CRUD",
+          "APIs",
+          "Database",
+          "Full-stack",
+          "Deployment"
+        ],
+        "topics": [
+          {
+            "title": "Beginner Projects",
+            "items": [
+              "Console application",
+              "CRUD application",
+              "Student management system"
+            ]
+          },
+          {
+            "title": "Intermediate Projects",
+            "items": [
+              "REST API",
+              "Authentication system",
+              "Database application",
+              "Task manager"
+            ]
+          },
+          {
+            "title": "Advanced Projects",
+            "items": [
+              "Full-stack application",
+              "E-commerce backend",
+              "Scalable API",
+              "Cloud deployment"
+            ]
+          },
+          {
+            "title": "Engineering Quality",
+            "items": [
+              "Git workflow",
+              "Testing",
+              "Documentation",
+              "Error handling",
+              "Code organization"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "ai-engineer": {
+    "title": "AI Engineer",
+    "icon": "🤖",
+    "description": "Progress from Python and mathematics to machine learning, deep learning and generative AI.",
+    "steps": [
+      {
+        "id": "python",
+        "title": "Python",
+        "description": "Build the programming foundation for AI development.",
+        "skills": [
+          "Python",
+          "NumPy",
+          "Pandas",
+          "OOP"
+        ],
+        "topics": [
+          {
+            "title": "Python Basics",
+            "items": [
+              "Variables",
+              "Data types",
+              "Operators",
+              "Conditions",
+              "Loops",
+              "Functions"
+            ]
+          },
+          {
+            "title": "Python Data Structures",
+            "items": [
+              "Lists",
+              "Tuples",
+              "Sets",
+              "Dictionaries",
+              "Comprehensions",
+              "String operations"
+            ]
+          },
+          {
+            "title": "OOP & Advanced Python",
+            "items": [
+              "Classes",
+              "Inheritance",
+              "Exceptions",
+              "Modules",
+              "Decorators basics",
+              "Virtual environments"
+            ]
+          },
+          {
+            "title": "Scientific Python",
+            "items": [
+              "NumPy",
+              "Pandas",
+              "Matplotlib",
+              "Data manipulation",
+              "Visualization"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "math",
+        "title": "Mathematics",
+        "description": "Learn the mathematics behind machine learning models.",
+        "skills": [
+          "Linear algebra",
+          "Probability",
+          "Statistics",
+          "Calculus",
+          "Optimization"
+        ],
+        "topics": [
+          {
+            "title": "Linear Algebra",
+            "items": [
+              "Vectors",
+              "Matrices",
+              "Matrix operations",
+              "Dot product",
+              "Eigenvalues basics"
+            ]
+          },
+          {
+            "title": "Probability",
+            "items": [
+              "Probability rules",
+              "Conditional probability",
+              "Bayes theorem",
+              "Random variables",
+              "Expected value"
+            ]
+          },
+          {
+            "title": "Statistics",
+            "items": [
+              "Mean",
+              "Variance",
+              "Distributions",
+              "Sampling",
+              "Confidence intervals",
+              "Hypothesis testing"
+            ]
+          },
+          {
+            "title": "Calculus & Optimization",
+            "items": [
+              "Derivatives",
+              "Gradients",
+              "Partial derivatives",
+              "Gradient descent",
+              "Optimization basics"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "ml",
+        "title": "Machine Learning",
+        "description": "Learn classical machine learning from fundamentals to model evaluation.",
+        "skills": [
+          "Regression",
+          "Classification",
+          "Clustering",
+          "Feature engineering",
+          "Evaluation"
+        ],
+        "topics": [
+          {
+            "title": "ML Fundamentals",
+            "items": [
+              "Supervised learning",
+              "Unsupervised learning",
+              "Training and testing",
+              "Features and labels",
+              "Overfitting"
+            ]
+          },
+          {
+            "title": "Regression",
+            "items": [
+              "Linear regression",
+              "Polynomial regression",
+              "Regularization",
+              "Regression metrics"
+            ]
+          },
+          {
+            "title": "Classification",
+            "items": [
+              "Logistic regression",
+              "KNN",
+              "Decision trees",
+              "Random forest",
+              "SVM",
+              "Classification metrics"
+            ]
+          },
+          {
+            "title": "Unsupervised Learning",
+            "items": [
+              "K-means",
+              "Hierarchical clustering",
+              "PCA",
+              "Dimensionality reduction"
+            ]
+          },
+          {
+            "title": "Feature Engineering",
+            "items": [
+              "Encoding",
+              "Scaling",
+              "Feature selection",
+              "Missing values",
+              "Outlier handling"
+            ]
+          },
+          {
+            "title": "Model Evaluation",
+            "items": [
+              "Cross-validation",
+              "Confusion matrix",
+              "Precision",
+              "Recall",
+              "F1 score",
+              "ROC-AUC",
+              "Hyperparameter tuning"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "deep-learning",
+        "title": "Deep Learning",
+        "description": "Build and train neural networks for modern AI applications.",
+        "skills": [
+          "Neural networks",
+          "CNN",
+          "RNN",
+          "Transformers",
+          "PyTorch/TensorFlow"
+        ],
+        "topics": [
+          {
+            "title": "Neural Network Basics",
+            "items": [
+              "Perceptron",
+              "Layers",
+              "Activation functions",
+              "Loss functions",
+              "Forward propagation",
+              "Backpropagation"
+            ]
+          },
+          {
+            "title": "Training Networks",
+            "items": [
+              "Gradient descent",
+              "Optimizers",
+              "Learning rate",
+              "Batch size",
+              "Epochs",
+              "Regularization"
+            ]
+          },
+          {
+            "title": "CNN",
+            "items": [
+              "Convolution",
+              "Pooling",
+              "Image classification",
+              "CNN architectures",
+              "Transfer learning"
+            ]
+          },
+          {
+            "title": "Sequence Models",
+            "items": [
+              "RNN",
+              "LSTM",
+              "GRU",
+              "Sequence data",
+              "Vanishing gradients"
+            ]
+          },
+          {
+            "title": "Transformers",
+            "items": [
+              "Attention",
+              "Self-attention",
+              "Encoder",
+              "Decoder",
+              "Transformer architecture"
+            ]
+          },
+          {
+            "title": "Frameworks",
+            "items": [
+              "PyTorch basics",
+              "TensorFlow basics",
+              "Datasets",
+              "Training loops",
+              "Model saving"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "genai",
+        "title": "Generative AI",
+        "description": "Learn LLMs, RAG, embeddings and modern AI application patterns.",
+        "skills": [
+          "LLMs",
+          "Prompting",
+          "Embeddings",
+          "RAG",
+          "Agents"
+        ],
+        "topics": [
+          {
+            "title": "LLM Fundamentals",
+            "items": [
+              "What are LLMs",
+              "Tokens",
+              "Context window",
+              "Pretraining",
+              "Inference"
+            ]
+          },
+          {
+            "title": "Prompt Engineering",
+            "items": [
+              "Clear instructions",
+              "Few-shot prompting",
+              "Structured outputs",
+              "Prompt evaluation",
+              "Safety basics"
+            ]
+          },
+          {
+            "title": "Embeddings",
+            "items": [
+              "Embedding concepts",
+              "Semantic similarity",
+              "Vector representations",
+              "Vector search"
+            ]
+          },
+          {
+            "title": "RAG",
+            "items": [
+              "Document ingestion",
+              "Chunking",
+              "Embedding generation",
+              "Vector database",
+              "Retrieval",
+              "Grounded generation"
+            ]
+          },
+          {
+            "title": "Fine-tuning & Agents",
+            "items": [
+              "Fine-tuning concepts",
+              "LoRA basics",
+              "Tool calling",
+              "Agent workflows",
+              "Evaluation"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "projects",
+        "title": "AI Projects",
+        "description": "Build practical AI systems for your portfolio.",
+        "skills": [
+          "ML project",
+          "Deep learning",
+          "Chatbot",
+          "RAG",
+          "AI agent"
+        ],
+        "topics": [
+          {
+            "title": "Beginner Projects",
+            "items": [
+              "House price prediction",
+              "Customer churn prediction",
+              "Simple classifier"
+            ]
+          },
+          {
+            "title": "Intermediate Projects",
+            "items": [
+              "Recommendation system",
+              "Image classifier",
+              "Sentiment analysis",
+              "Time-series prediction"
+            ]
+          },
+          {
+            "title": "Advanced Projects",
+            "items": [
+              "AI chatbot",
+              "RAG application",
+              "Document Q&A",
+              "AI agent",
+              "End-to-end ML deployment"
+            ]
+          },
+          {
+            "title": "MLOps Basics",
+            "items": [
+              "Model packaging",
+              "API serving",
+              "Experiment tracking",
+              "Monitoring",
+              "Model versioning"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "cybersecurity-analyst": {
+    "title": "Cybersecurity Analyst",
+    "icon": "🔐",
+    "description": "Build defensive cybersecurity skills from networking and Linux to SOC operations.",
+    "steps": [
+      {
+        "id": "networking",
+        "title": "Networking",
+        "description": "Understand network communication before learning security monitoring.",
+        "skills": [
+          "TCP/IP",
+          "DNS",
+          "HTTP",
+          "Ports",
+          "Firewalls"
+        ],
+        "topics": [
+          {
+            "title": "Network Basics",
+            "items": [
+              "LAN and WAN",
+              "IP addresses",
+              "MAC addresses",
+              "OSI model",
+              "TCP/IP model"
+            ]
+          },
+          {
+            "title": "Protocols",
+            "items": [
+              "TCP",
+              "UDP",
+              "DNS",
+              "DHCP",
+              "HTTP",
+              "HTTPS",
+              "SSH"
+            ]
+          },
+          {
+            "title": "Routing & Ports",
+            "items": [
+              "Ports",
+              "Routing",
+              "Subnetting",
+              "NAT",
+              "Default gateway"
+            ]
+          },
+          {
+            "title": "Network Security",
+            "items": [
+              "Firewalls",
+              "VPN",
+              "TLS",
+              "Network segmentation",
+              "Traffic monitoring"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "linux",
+        "title": "Linux",
+        "description": "Learn Linux administration and security fundamentals.",
+        "skills": [
+          "Commands",
+          "Permissions",
+          "Processes",
+          "Logs",
+          "Shell"
+        ],
+        "topics": [
+          {
+            "title": "Linux Basics",
+            "items": [
+              "File system",
+              "Navigation",
+              "Files and directories",
+              "Package management"
+            ]
+          },
+          {
+            "title": "Permissions",
+            "items": [
+              "Users",
+              "Groups",
+              "chmod",
+              "chown",
+              "sudo",
+              "Access control"
+            ]
+          },
+          {
+            "title": "Processes & Logs",
+            "items": [
+              "Processes",
+              "Services",
+              "System logs",
+              "Log files",
+              "Monitoring"
+            ]
+          },
+          {
+            "title": "Shell Scripting",
+            "items": [
+              "Variables",
+              "Conditions",
+              "Loops",
+              "Pipelines",
+              "Bash scripts",
+              "Automation"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "security",
+        "title": "Security Fundamentals",
+        "description": "Understand the core principles and controls used in cybersecurity.",
+        "skills": [
+          "CIA triad",
+          "Authentication",
+          "Encryption",
+          "Threats",
+          "Vulnerabilities"
+        ],
+        "topics": [
+          {
+            "title": "Security Principles",
+            "items": [
+              "Confidentiality",
+              "Integrity",
+              "Availability",
+              "Least privilege",
+              "Defense in depth"
+            ]
+          },
+          {
+            "title": "Identity & Access",
+            "items": [
+              "Authentication",
+              "Authorization",
+              "MFA",
+              "Passwords",
+              "Access control"
+            ]
+          },
+          {
+            "title": "Cryptography",
+            "items": [
+              "Encryption",
+              "Symmetric encryption",
+              "Asymmetric encryption",
+              "Hashing",
+              "Digital signatures",
+              "Certificates"
+            ]
+          },
+          {
+            "title": "Threats & Vulnerabilities",
+            "items": [
+              "Malware",
+              "Phishing",
+              "Social engineering",
+              "Vulnerabilities",
+              "Risk",
+              "Security controls"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "web-security",
+        "title": "Web Security",
+        "description": "Understand common web vulnerabilities and defensive practices.",
+        "skills": [
+          "HTTP",
+          "Sessions",
+          "OWASP",
+          "Secure coding"
+        ],
+        "topics": [
+          {
+            "title": "Web Fundamentals",
+            "items": [
+              "HTTP requests",
+              "Responses",
+              "Headers",
+              "Cookies",
+              "Sessions",
+              "Authentication"
+            ]
+          },
+          {
+            "title": "OWASP Fundamentals",
+            "items": [
+              "Injection",
+              "Broken access control",
+              "Security misconfiguration",
+              "Identification failures",
+              "Cryptographic failures"
+            ]
+          },
+          {
+            "title": "Common Web Risks",
+            "items": [
+              "SQL injection concepts",
+              "XSS concepts",
+              "CSRF concepts",
+              "File upload risks",
+              "Session security"
+            ]
+          },
+          {
+            "title": "Defensive Development",
+            "items": [
+              "Input validation",
+              "Output encoding",
+              "Secure authentication",
+              "Secrets management",
+              "Security testing basics"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "soc",
+        "title": "SOC & Incident Response",
+        "description": "Learn how security operations teams monitor, investigate and respond to incidents.",
+        "skills": [
+          "Logs",
+          "SIEM",
+          "Alerts",
+          "Incident response",
+          "Threat intelligence"
+        ],
+        "topics": [
+          {
+            "title": "SOC Basics",
+            "items": [
+              "SOC roles",
+              "Security monitoring",
+              "Alerts",
+              "Events vs incidents",
+              "Incident lifecycle"
+            ]
+          },
+          {
+            "title": "Log Analysis",
+            "items": [
+              "Authentication logs",
+              "Web logs",
+              "System logs",
+              "Network logs",
+              "Indicators of compromise"
+            ]
+          },
+          {
+            "title": "SIEM",
+            "items": [
+              "SIEM concepts",
+              "Log ingestion",
+              "Search queries",
+              "Dashboards",
+              "Correlation rules",
+              "Alert triage"
+            ]
+          },
+          {
+            "title": "Incident Response",
+            "items": [
+              "Preparation",
+              "Identification",
+              "Containment",
+              "Eradication",
+              "Recovery",
+              "Lessons learned"
+            ]
+          },
+          {
+            "title": "Threat Intelligence",
+            "items": [
+              "IOCs",
+              "TTPs",
+              "Threat actors",
+              "Threat feeds",
+              "MITRE ATT&CK basics"
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "projects",
+        "title": "Security Projects",
+        "description": "Practice defensive security through safe, authorized projects.",
+        "skills": [
+          "Monitoring",
+          "SIEM",
+          "Security dashboard",
+          "Incident response"
+        ],
+        "topics": [
+          {
+            "title": "Beginner Projects",
+            "items": [
+              "Linux log analyzer",
+              "Password security checker",
+              "Basic security dashboard"
+            ]
+          },
+          {
+            "title": "Intermediate Projects",
+            "items": [
+              "Network traffic dashboard",
+              "SIEM-style log search",
+              "Authentication anomaly detector"
+            ]
+          },
+          {
+            "title": "Advanced Projects",
+            "items": [
+              "Incident response simulation",
+              "Threat intelligence dashboard",
+              "Security monitoring platform"
+            ]
+          },
+          {
+            "title": "Portfolio Readiness",
+            "items": [
+              "Document authorized scope",
+              "Explain detection logic",
+              "Show sample logs",
+              "Explain mitigations",
+              "Write project report"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+   

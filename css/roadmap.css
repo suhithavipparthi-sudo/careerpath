@@ -1,0 +1,411 @@
+/* =========================================
+   CAREER ROADMAP PAGE
+========================================= */
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.roadmap-page-hero {
+    padding: 70px 0 55px;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f7f8ff 0%,
+            #eef4ff 100%
+        );
+}
+
+
+.roadmap-page-hero .eyebrow {
+    margin-bottom: 12px;
+}
+
+
+.roadmap-page-hero h1 {
+
+    font-size: 3rem;
+
+    margin: 0 0 14px;
+
+    font-weight: 800;
+
+}
+
+
+.roadmap-page-hero p:last-child {
+
+    max-width: 680px;
+
+    margin: auto;
+
+    color: var(--text-light);
+
+    font-size: 1.08rem;
+
+    line-height: 1.7;
+
+}
+
+
+/* =========================================
+   ROADMAP SECTION
+========================================= */
+
+.roadmap-selection {
+
+    padding: 65px 0 90px;
+
+}
+
+
+.roadmap-role-grid {
+
+    max-width: 950px;
+
+    margin: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+}
+
+
+/* =========================================
+   CLICKABLE CAREER CARD
+========================================= */
+
+.roadmap-role-card {
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 24px;
+
+    width: 100%;
+
+    min-height: 135px;
+
+    padding: 25px 30px;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 2px solid #e7e9f2;
+
+    border-radius: 18px;
+
+    text-decoration: none;
+
+    color: var(--text);
+
+    cursor: pointer;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease,
+        background 0.25s ease;
+
+}
+
+
+/* =========================================
+   HOVER EFFECT
+========================================= */
+
+.roadmap-role-card:hover {
+
+    transform: translateY(-5px);
+
+    border-color: var(--primary);
+
+    background: #fcfcff;
+
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.10);
+
+}
+
+
+/* =========================================
+   ICON
+========================================= */
+
+.roadmap-card-icon {
+
+    flex-shrink: 0;
+
+    width: 72px;
+
+    height: 72px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background: #f1f2ff;
+
+    font-size: 34px;
+
+    transition:
+        transform 0.25s ease,
+        background 0.25s ease;
+
+}
+
+
+.roadmap-role-card:hover .roadmap-card-icon {
+
+    transform: scale(1.08);
+
+    background: #e9eaff;
+
+}
+
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.roadmap-card-content {
+
+    flex: 1;
+
+}
+
+
+.roadmap-level {
+
+    display: inline-block;
+
+    margin-bottom: 6px;
+
+    font-size: 0.72rem;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    color: var(--primary);
+
+}
+
+
+.roadmap-role-card h2 {
+
+    margin: 0 0 8px;
+
+    font-size: 1.45rem;
+
+    font-weight: 750;
+
+}
+
+
+.roadmap-role-card p {
+
+    margin: 0;
+
+    color: var(--text-light);
+
+    font-size: 0.95rem;
+
+    line-height: 1.6;
+
+}
+
+
+/* =========================================
+   ARROW
+========================================= */
+
+.roadmap-arrow {
+
+    flex-shrink: 0;
+
+    width: 48px;
+
+    height: 48px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #f2f3ff;
+
+    color: var(--primary);
+
+    font-size: 1.6rem;
+
+    font-weight: 700;
+
+    transition:
+        transform 0.25s ease,
+        background 0.25s ease;
+
+}
+
+
+.roadmap-role-card:hover .roadmap-arrow {
+
+    transform: translateX(6px);
+
+    background: var(--primary);
+
+    color: white;
+
+}
+
+
+/* =========================================
+   SMALL "CLICKABLE" FEEL
+========================================= */
+
+.roadmap-role-card::after {
+
+    content: "VIEW ROADMAP";
+
+    position: absolute;
+
+    right: 88px;
+
+    bottom: 15px;
+
+    font-size: 0.65rem;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    color: var(--primary);
+
+    opacity: 0;
+
+    transform: translateY(5px);
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease;
+
+}
+
+
+.roadmap-role-card:hover::after {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 700px) {
+
+    .roadmap-page-hero {
+
+        padding: 55px 0 45px;
+
+    }
+
+
+    .roadmap-page-hero h1 {
+
+        font-size: 2.2rem;
+
+    }
+
+
+    .roadmap-page-hero p:last-child {
+
+        font-size: 0.95rem;
+
+    }
+
+
+    .roadmap-selection {
+
+        padding: 45px 0 70px;
+
+    }
+
+
+    .roadmap-role-card {
+
+        min-height: auto;
+
+        padding: 20px;
+
+        gap: 15px;
+
+    }
+
+
+    .roadmap-card-icon {
+
+        width: 55px;
+
+        height: 55px;
+
+        font-size: 27px;
+
+        border-radius: 14px;
+
+    }
+
+
+    .roadmap-role-card h2 {
+
+        font-size: 1.15rem;
+
+    }
+
+
+    .roadmap-role-card p {
+
+        font-size: 0.82rem;
+
+    }
+
+
+    .roadmap-arrow {
+
+        width: 38px;
+
+        height: 38px;
+
+        font-size: 1.2rem;
+
+    }
+
+
+    .roadmap-role-card::after {
+
+        display: none;
+
+    }
+
+}

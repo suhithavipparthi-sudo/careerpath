@@ -1,0 +1,472 @@
+/* ===============================
+   ROADMAP DETAILS
+================================ */
+
+.roadmap-hero {
+    padding: 50px 0 55px;
+    background: linear-gradient(135deg, #f5f7ff, #eef4ff);
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 35px;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.role-hero-content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.role-icon {
+    width: 90px;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 22px;
+
+    background: white;
+
+    font-size: 42px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.role-hero-content h1 {
+    font-size: 2.8rem;
+    margin: 5px 0 10px;
+}
+
+.role-hero-content p {
+    max-width: 700px;
+    color: var(--text-light);
+}
+
+
+/* ===============================
+   PROGRESS
+================================ */
+
+.progress-card {
+    margin-top: 35px;
+
+    background: white;
+
+    padding: 24px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.progress-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+
+    font-weight: 600;
+}
+
+.progress-track {
+    width: 100%;
+    height: 12px;
+
+    background: #e8ecf4;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0%;
+
+    background: var(--gradient);
+
+    border-radius: 20px;
+
+    transition: width 0.4s ease;
+}
+
+#progressText {
+    margin-top: 10px;
+    color: var(--text-light);
+}
+
+
+/* ===============================
+   ROADMAP SECTION
+================================ */
+
+.roadmap-section {
+    padding: 70px 0;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.section-heading h2 {
+    font-size: 2.2rem;
+    margin: 8px 0;
+}
+
+.section-heading p:last-child {
+    color: var(--text-light);
+}
+
+
+/* ===============================
+   VERTICAL FLOW
+================================ */
+
+.roadmap-flow {
+    position: relative;
+
+    max-width: 850px;
+
+    margin: auto;
+}
+
+.roadmap-flow::before {
+    content: "";
+
+    position: absolute;
+
+    left: 30px;
+    top: 25px;
+    bottom: 25px;
+
+    width: 3px;
+
+    background: linear-gradient(
+        to bottom,
+        #6c63ff,
+        #8e9eff
+    );
+
+    border-radius: 10px;
+}
+
+
+/* ===============================
+   ROADMAP STEP
+================================ */
+
+.roadmap-step {
+    position: relative;
+
+    margin-bottom: 28px;
+
+    padding-left: 75px;
+}
+
+.step-number {
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: white;
+
+    border: 4px solid #6c63ff;
+
+    color: #6c63ff;
+
+    font-weight: 800;
+
+    z-index: 2;
+}
+
+.step-card {
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
+    padding: 24px;
+
+    transition: 0.25s ease;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.04);
+}
+
+.step-card:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.step-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+.step-header h3 {
+    margin: 0;
+    font-size: 1.35rem;
+}
+
+.step-description {
+    color: var(--text-light);
+    margin: 8px 0 18px;
+}
+
+
+/* ===============================
+   SKILLS
+================================ */
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-top: 15px;
+}
+
+.skill-tag {
+    padding: 7px 12px;
+
+    border-radius: 20px;
+
+    background: #f1f3ff;
+
+    color: #5548d8;
+
+    font-size: 0.85rem;
+
+    font-weight: 600;
+}
+
+
+/* ===============================
+   EXPAND BUTTON
+================================ */
+
+.expand-btn {
+    border: none;
+
+    background: #f1f3ff;
+
+    color: #5548d8;
+
+    padding: 9px 15px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-weight: 700;
+}
+
+.expand-btn:hover {
+    background: #e5e7ff;
+}
+
+
+/* ===============================
+   TOPIC FLOW
+================================ */
+
+.topic-container {
+    display: none;
+
+    margin-top: 25px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid var(--border);
+}
+
+.topic-container.open {
+    display: block;
+}
+
+.topic-flow {
+    position: relative;
+
+    padding-left: 30px;
+}
+
+.topic-flow::before {
+    content: "";
+
+    position: absolute;
+
+    left: 8px;
+
+    top: 20px;
+    bottom: 20px;
+
+    width: 2px;
+
+    background: #c9cfff;
+}
+
+.topic-node {
+    position: relative;
+
+    margin-bottom: 18px;
+}
+
+.topic-node::before {
+    content: "";
+
+    position: absolute;
+
+    left: -29px;
+    top: 21px;
+
+    width: 12px;
+    height: 12px;
+
+    background: #6c63ff;
+
+    border-radius: 50%;
+
+    border: 3px solid white;
+
+    box-shadow: 0 0 0 2px #c9cfff;
+}
+
+.topic-box {
+    background: #fafbff;
+
+    border: 1px solid #e4e7f5;
+
+    border-radius: 14px;
+
+    padding: 16px;
+}
+
+.topic-title {
+    font-weight: 700;
+
+    margin-bottom: 12px;
+
+    color: var(--text);
+}
+
+
+/* ===============================
+   CHECKLIST
+================================ */
+
+.topic-checklist {
+    display: grid;
+
+    gap: 8px;
+}
+
+.topic-check {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    cursor: pointer;
+
+    padding: 7px;
+
+    border-radius: 8px;
+
+    transition: background 0.2s;
+}
+
+.topic-check:hover {
+    background: #f0f2ff;
+}
+
+.topic-check input {
+    width: 17px;
+    height: 17px;
+
+    accent-color: #6c63ff;
+
+    cursor: pointer;
+}
+
+.topic-check.completed span {
+    text-decoration: line-through;
+
+    color: #8b92a5;
+}
+
+
+/* ===============================
+   COMPLETED STEP
+================================ */
+
+.step-card.completed {
+    border-color: #78c89a;
+
+    background: #f8fff9;
+}
+
+.step-card.completed .step-number {
+    border-color: #36a269;
+
+    color: #36a269;
+}
+
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 700px) {
+
+    .role-hero-content {
+        align-items: flex-start;
+    }
+
+    .role-hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .roadmap-flow::before {
+        left: 22px;
+    }
+
+    .roadmap-step {
+        padding-left: 58px;
+    }
+
+    .step-number {
+        width: 46px;
+        height: 46px;
+        font-size: 0.85rem;
+    }
+
+    .topic-flow {
+        padding-left: 25px;
+    }
+
+    .step-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
