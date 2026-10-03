@@ -1,1 +1,271 @@
-[]
+{
+  "data-analyst": [
+    {
+      "title": "Student Performance Analyzer",
+      "icon": "📊",
+      "level": "beginner",
+      "description": "Analyze student marks and performance using Python, Pandas and data visualization.",
+      "skills": ["Python", "Pandas", "Excel"]
+    },
+    {
+      "title": "Sales Data Analysis",
+      "icon": "📈",
+      "level": "beginner",
+      "description": "Analyze sales data to identify trends, top products and revenue patterns.",
+      "skills": ["Excel", "SQL", "Data Analysis"]
+    },
+    {
+      "title": "E-Commerce Sales Dashboard",
+      "icon": "🛒",
+      "level": "intermediate",
+      "description": "Build an interactive dashboard showing sales, customers, products and revenue.",
+      "skills": ["SQL", "Power BI", "Excel"]
+    },
+    {
+      "title": "Customer Segmentation Analysis",
+      "icon": "👥",
+      "level": "intermediate",
+      "description": "Analyze customer behavior and divide customers into meaningful segments.",
+      "skills": ["Python", "Pandas", "Statistics"]
+    },
+    {
+      "title": "Business KPI Dashboard",
+      "icon": "📊",
+      "level": "advanced",
+      "description": "Create an end-to-end business dashboard for tracking important company KPIs.",
+      "skills": ["SQL", "Power BI", "DAX"]
+    },
+    {
+      "title": "Automated Analytics Report",
+      "icon": "⚡",
+      "level": "advanced",
+      "description": "Build an automated reporting system that cleans data and generates business insights.",
+      "skills": ["Python", "SQL", "Power BI"]
+    }
+  ],
+
+  "frontend-developer": [
+    {
+      "title": "Personal Portfolio Website",
+      "icon": "🌐",
+      "level": "beginner",
+      "description": "Build a responsive portfolio website to showcase your skills and projects.",
+      "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "title": "Calculator App",
+      "icon": "🧮",
+      "level": "beginner",
+      "description": "Create an interactive calculator using HTML, CSS and JavaScript.",
+      "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "title": "Weather Application",
+      "icon": "🌤️",
+      "level": "intermediate",
+      "description": "Build a weather application that fetches live weather information from an API.",
+      "skills": ["JavaScript", "Fetch API", "REST API"]
+    },
+    {
+      "title": "Movie Search Application",
+      "icon": "🎬",
+      "level": "intermediate",
+      "description": "Create a movie search application using a public movie API.",
+      "skills": ["JavaScript", "API", "DOM"]
+    },
+    {
+      "title": "E-Commerce Frontend",
+      "icon": "🛍️",
+      "level": "advanced",
+      "description": "Build a modern responsive e-commerce interface with product listings and cart functionality.",
+      "skills": ["React", "JavaScript", "CSS"]
+    },
+    {
+      "title": "Admin Dashboard",
+      "icon": "📊",
+      "level": "advanced",
+      "description": "Build a professional admin dashboard with charts, tables and responsive layouts.",
+      "skills": ["React", "Charts", "CSS"]
+    }
+  ],
+
+  "software-developer": [
+    {
+      "title": "Student Management System",
+      "icon": "🎓",
+      "level": "beginner",
+      "description": "Create a CRUD application to manage student records.",
+      "skills": ["Java", "MySQL", "JDBC"]
+    },
+    {
+      "title": "Library Management System",
+      "icon": "📚",
+      "level": "beginner",
+      "description": "Build a system to manage books, students and borrowing records.",
+      "skills": ["Java", "OOP", "MySQL"]
+    },
+    {
+      "title": "Task Management API",
+      "icon": "✅",
+      "level": "intermediate",
+      "description": "Build a REST API for creating, updating and managing tasks.",
+      "skills": ["Node.js", "Express", "SQL"]
+    },
+    {
+      "title": "Expense Tracker",
+      "icon": "💰",
+      "level": "intermediate",
+      "description": "Develop an application to record and analyze personal expenses.",
+      "skills": ["Java", "MySQL", "CRUD"]
+    },
+    {
+      "title": "E-Commerce Backend",
+      "icon": "🛒",
+      "level": "advanced",
+      "description": "Build a scalable backend for products, users, orders and payments.",
+      "skills": ["Node.js", "Express", "MySQL"]
+    },
+    {
+      "title": "Full Stack Application",
+      "icon": "💻",
+      "level": "advanced",
+      "description": "Build and deploy a complete full-stack web application.",
+      "skills": ["React", "Node.js", "MySQL"]
+    }
+  ],
+
+  "cloud-engineer": [
+    {
+      "title": "Static Website on AWS S3",
+      "icon": "☁️",
+      "level": "beginner",
+      "description": "Deploy a static website using Amazon S3.",
+      "skills": ["AWS", "S3", "HTML"]
+    },
+    {
+      "title": "EC2 Web Server",
+      "icon": "🖥️",
+      "level": "beginner",
+      "description": "Launch and configure a web server using an AWS EC2 instance.",
+      "skills": ["AWS", "EC2", "Linux"]
+    },
+    {
+      "title": "Dockerized Node Application",
+      "icon": "🐳",
+      "level": "intermediate",
+      "description": "Containerize and deploy a Node.js application using Docker.",
+      "skills": ["Docker", "Node.js", "Linux"]
+    },
+    {
+      "title": "Cloud Database Application",
+      "icon": "🗄️",
+      "level": "intermediate",
+      "description": "Connect a cloud-hosted application to a managed database.",
+      "skills": ["AWS", "RDS", "SQL"]
+    },
+    {
+      "title": "CI/CD Cloud Deployment",
+      "icon": "🚀",
+      "level": "advanced",
+      "description": "Create an automated pipeline for building, testing and deploying applications.",
+      "skills": ["CI/CD", "Docker", "AWS"]
+    },
+    {
+      "title": "Highly Available Web Architecture",
+      "icon": "🏗️",
+      "level": "advanced",
+      "description": "Design a scalable and highly available cloud application.",
+      "skills": ["AWS", "Load Balancer", "Auto Scaling"]
+    }
+  ],
+
+  "ai-engineer": [
+    {
+      "title": "House Price Prediction",
+      "icon": "🏠",
+      "level": "beginner",
+      "description": "Build a machine learning model that predicts house prices.",
+      "skills": ["Python", "Pandas", "Scikit-learn"]
+    },
+    {
+      "title": "Customer Churn Prediction",
+      "icon": "👥",
+      "level": "beginner",
+      "description": "Predict which customers are likely to leave a service.",
+      "skills": ["Python", "ML", "Classification"]
+    },
+    {
+      "title": "Image Classification",
+      "icon": "🖼️",
+      "level": "intermediate",
+      "description": "Build a neural network that classifies images into categories.",
+      "skills": ["Python", "CNN", "TensorFlow"]
+    },
+    {
+      "title": "Recommendation System",
+      "icon": "🎯",
+      "level": "intermediate",
+      "description": "Build a system that recommends products or content to users.",
+      "skills": ["Python", "Machine Learning", "Pandas"]
+    },
+    {
+      "title": "RAG Chatbot",
+      "icon": "🤖",
+      "level": "advanced",
+      "description": "Build a chatbot that answers questions using documents and retrieval.",
+      "skills": ["Python", "RAG", "LLMs"]
+    },
+    {
+      "title": "AI Agent",
+      "icon": "🧠",
+      "level": "advanced",
+      "description": "Build an AI agent capable of using tools and completing multi-step tasks.",
+      "skills": ["LLMs", "Agents", "Python"]
+    }
+  ],
+
+  "cybersecurity-analyst": [
+    {
+      "title": "Linux Log Analyzer",
+      "icon": "🔍",
+      "level": "beginner",
+      "description": "Analyze Linux logs to identify unusual authentication activity.",
+      "skills": ["Linux", "Logs", "Python"]
+    },
+    {
+      "title": "Password Security Checker",
+      "icon": "🔐",
+      "level": "beginner",
+      "description": "Build a tool that evaluates password security using safe validation rules.",
+      "skills": ["Python", "Security", "Validation"]
+    },
+    {
+      "title": "Security Monitoring Dashboard",
+      "icon": "🛡️",
+      "level": "intermediate",
+      "description": "Create a dashboard that displays security events and alerts.",
+      "skills": ["Python", "Logs", "Dashboard"]
+    },
+    {
+      "title": "Authentication Anomaly Detector",
+      "icon": "🚨",
+      "level": "intermediate",
+      "description": "Detect unusual login patterns from authorized sample authentication logs.",
+      "skills": ["Python", "SQL", "Security"]
+    },
+    {
+      "title": "SIEM Log Analysis Platform",
+      "icon": "📡",
+      "level": "advanced",
+      "description": "Build a SIEM-style platform for searching and analyzing security logs.",
+      "skills": ["SIEM", "Python", "SQL"]
+    },
+    {
+      "title": "Threat Intelligence Dashboard",
+      "icon": "🌐",
+      "level": "advanced",
+      "description": "Create a dashboard for organizing and visualizing authorized threat intelligence data.",
+      "skills": ["Threat Intelligence", "Python", "Visualization"]
+    }
+  ]
+}

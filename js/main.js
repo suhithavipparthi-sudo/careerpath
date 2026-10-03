@@ -260,45 +260,45 @@ if (popularRoles) {
     const roles = [
 
         {
+            id: "data-analyst",
             icon: "📊",
             title: "Data Analyst",
-            description: "Analyze data and discover useful business insights.",
-            link: "pages/roles.html"
+            description: "Analyze data and discover useful business insights."
         },
 
         {
+            id: "frontend-developer",
             icon: "🎨",
             title: "Frontend Developer",
-            description: "Build beautiful and interactive websites.",
-            link: "pages/roles.html"
+            description: "Build beautiful and interactive websites."
         },
 
         {
+            id: "cloud-engineer",
             icon: "☁️",
             title: "Cloud Engineer",
-            description: "Build and manage cloud infrastructure.",
-            link: "pages/roles.html"
+            description: "Build and manage cloud infrastructure."
         },
 
         {
+            id: "ai-engineer",
             icon: "🤖",
             title: "AI Engineer",
-            description: "Build intelligent systems using AI and machine learning.",
-            link: "pages/roles.html"
+            description: "Build intelligent systems using AI and machine learning."
         },
 
         {
+            id: "software-developer",
             icon: "💻",
             title: "Software Developer",
-            description: "Design and develop software applications.",
-            link: "pages/roles.html"
+            description: "Design and develop software applications."
         },
 
         {
+            id: "cybersecurity-analyst",
             icon: "🔐",
             title: "Cybersecurity Analyst",
-            description: "Protect systems and data from security threats.",
-            link: "pages/roles.html"
+            description: "Protect systems and data from security threats."
         }
 
     ];
@@ -306,7 +306,8 @@ if (popularRoles) {
 
     popularRoles.innerHTML = roles.map(role => `
 
-        <a href="${role.link}" class="card role-card">
+        <a href="${root}pages/role-details.html?role=${role.id}"
+           class="card role-card">
 
             <div class="role-icon">
                 ${role.icon}

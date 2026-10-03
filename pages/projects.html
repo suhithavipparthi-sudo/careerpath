@@ -12,7 +12,7 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="../css/style.css">
 
-    <!-- Navbar -->
+    <!-- Navbar CSS -->
     <link rel="stylesheet" href="../css/navbar.css">
 
     <!-- Projects CSS -->
@@ -52,12 +52,12 @@
                     BUILD YOUR PORTFOLIO
                 </p>
 
-                <h1>
+                <h1 id="projectsTitle">
                     Projects That Make You
                     <span>Job-Ready</span>
                 </h1>
 
-                <p class="projects-intro">
+                <p class="projects-intro" id="projectsIntro">
                     Practice your skills by building real-world projects.
                     Start with beginner projects and gradually move towards
                     advanced projects.
@@ -93,231 +93,9 @@
 
             <!-- PROJECT CARDS -->
 
-            <section class="projects-grid">
+            <section class="projects-grid" id="projectsGrid">
 
-
-                <!-- PROJECT 1 -->
-
-                <div class="project-card" data-level="beginner">
-
-                    <div class="project-icon">
-                        📊
-                    </div>
-
-                    <span class="project-level beginner-level">
-                        Beginner
-                    </span>
-
-                    <h2>
-                        Student Performance Analyzer
-                    </h2>
-
-                    <p>
-                        Analyze student marks and performance using
-                        Python, Pandas and basic data visualization.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>Python</span>
-                        <span>Pandas</span>
-                        <span>Excel</span>
-
-                    </div>
-
-                    <a href="#" class="project-link">
-                        View Project →
-                    </a>
-
-                </div>
-
-
-
-                <!-- PROJECT 2 -->
-
-                <div class="project-card" data-level="beginner">
-
-                    <div class="project-icon">
-                        🌐
-                    </div>
-
-                    <span class="project-level beginner-level">
-                        Beginner
-                    </span>
-
-                    <h2>
-                        Personal Portfolio Website
-                    </h2>
-
-                    <p>
-                        Build a responsive portfolio website to showcase
-                        your skills, projects and achievements.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-
-                    </div>
-
-                    <a href="#" class="project-link">
-                        View Project →
-                    </a>
-
-                </div>
-
-
-
-                <!-- PROJECT 3 -->
-
-                <div class="project-card" data-level="intermediate">
-
-                    <div class="project-icon">
-                        🛒
-                    </div>
-
-                    <span class="project-level intermediate-level">
-                        Intermediate
-                    </span>
-
-                    <h2>
-                        E-Commerce Dashboard
-                    </h2>
-
-                    <p>
-                        Create an interactive dashboard that displays
-                        sales, customers, products and revenue data.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>SQL</span>
-                        <span>Power BI</span>
-                        <span>Excel</span>
-
-                    </div>
-
-                    <a href="#" class="project-link">
-                        View Project →
-                    </a>
-
-                </div>
-
-
-
-                <!-- PROJECT 4 -->
-
-                <div class="project-card" data-level="intermediate">
-
-                    <div class="project-icon">
-                        🤖
-                    </div>
-
-                    <span class="project-level intermediate-level">
-                        Intermediate
-                    </span>
-
-                    <h2>
-                        Student Management System
-                    </h2>
-
-                    <p>
-                        Build a system to add, update, delete and search
-                        student records using Java and MySQL.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>Java</span>
-                        <span>MySQL</span>
-                        <span>JDBC</span>
-
-                    </div>
-
-                    <a href="#" class="project-link">
-                        View Project →
-                    </a>
-
-                </div>
-
-
-
-                <!-- PROJECT 5 -->
-
-                <div class="project-card" data-level="advanced">
-
-                    <div class="project-icon">
-                        🧠
-                    </div>
-
-                    <span class="project-level advanced-level">
-                        Advanced
-                    </span>
-
-                    <h2>
-                        Career Recommendation System
-                    </h2>
-
-                    <p>
-                        Build a recommendation system that suggests
-                        career paths based on skills, interests and
-                        learning preferences.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>Python</span>
-                        <span>Machine Learning</span>
-                        <span>SQL</span>
-
-                    </div>
-
-                    <a href="#" class="project-link">
-                        View Project →
-                    </a>
-
-                </div>
-
-
-
-                <!-- PROJECT 6 -->
-
-                <div class="project-card" data-level="advanced">
-
-                    <div class="project-icon">
-                        🌾
-                    </div>
-
-                    <span class="project-level advanced-level">
-                        Advanced
-                    </span>
-
-                    <h2>
-                        Smart Agriculture Platform
-                    </h2>
-
-                    <p>
-                        Develop a platform that helps farmers discover
-                        crop information, market prices and useful
-                        agricultural resources.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>JavaScript</span>
-                        <span>API</span>
-                        <span>AI</span>
-
-                    </div>
-
-                    <a href="#" class="project-link">
-                        View Project →
-                    </a>
-
-                </div>
-
+                <!-- Projects will be generated by JavaScript -->
 
             </section>
 
@@ -365,66 +143,8 @@
 
     <script src="../js/main.js"></script>
 
-
-    <!-- FILTER SCRIPT -->
-
-    <script>
-
-        const filterButtons =
-            document.querySelectorAll(".filter-btn");
-
-        const projectCards =
-            document.querySelectorAll(".project-card");
-
-
-        filterButtons.forEach(button => {
-
-            button.addEventListener("click", () => {
-
-
-                /* Remove active from all buttons */
-
-                filterButtons.forEach(btn => {
-                    btn.classList.remove("active");
-                });
-
-
-                /* Add active to clicked button */
-
-                button.classList.add("active");
-
-
-                /* Get selected filter */
-
-                const filter =
-                    button.getAttribute("data-filter");
-
-
-                /* Show / hide projects */
-
-                projectCards.forEach(card => {
-
-                    const level =
-                        card.getAttribute("data-level");
-
-
-                    if (filter === "all" || level === filter) {
-
-                        card.style.display = "block";
-
-                    } else {
-
-                        card.style.display = "none";
-
-                    }
-
-                });
-
-            });
-
-        });
-
-    </script>
+    <!-- Projects JavaScript -->
+    <script src="../js/projects.js"></script>
 
 
 </body>
