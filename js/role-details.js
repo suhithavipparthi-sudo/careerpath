@@ -7,7 +7,12 @@
 
 const params = new URLSearchParams(window.location.search);
 
-const currentRole = params.get("role") || "data-analyst";
+let currentRole = params.get("role") || "data-analyst";
+
+// Support both URL names
+if (currentRole === "ai-engineer") {
+    currentRole = "ai-ml-engineer";
+}
 
 
 // ========================================
